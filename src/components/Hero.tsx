@@ -24,12 +24,18 @@ const Hero = () => {
             concepts into web experiences.
           </p>
           <div className="flex gap-4 pb-20 pt-10">
-            <button className="bg-[#22c55e] px-6 py-3 text-[#0a1a0f] font-mono hover:bg-[#16a34a] transition-colors">
+            <a
+              href="#project"
+              className="bg-[#22c55e] px-6 py-3 text-[#0a1a0f] font-mono hover:bg-[#16a34a] transition-colors"
+            >
               View My Work
-            </button>
-            <button className="bg-transparent border border-[#22c55e] px-6 py-3 text-[#22c55e] font-mono hover:bg-[rgba(34,197,94,0.12)] transition-colors">
+            </a>
+            <a
+              href="#contact"
+              className="bg-transparent border border-[#22c55e] px-6 py-3 text-[#22c55e] font-mono hover:bg-[rgba(34,197,94,0.12)] transition-colors"
+            >
               Let's Connect
-            </button>
+            </a>
           </div>
         </div>
 
@@ -91,7 +97,7 @@ const Hero = () => {
               <span className="text-[#2d5a3d]">11</span>
               {"}"}
             </p>
-            <p className="mt-4 text-[#22c55e] animate-pulse">█</p>
+            <p className="mt-4 text-[#22c55e] animate-blink">█</p>
           </div>
         </div>
       </div>
