@@ -2,6 +2,7 @@ const techs = [
   "React",
   "React Native",
   "HTML / CSS",
+  "C#",
   "JavaScript",
   "TypeScript",
   "GODOT",
