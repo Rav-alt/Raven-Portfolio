@@ -26,7 +26,7 @@ const Modal = ({ isOpen, onClose, project }: ModalProps) => {
       onClick={onClose}
     >
       <div
-        className="relative bg-[#111111] border border-[rgba(34,197,94,0.2)] p-8 max-w-3xl w-full mx-4 flex gap-8"
+        className="relative bg-[#111111] border border-[rgba(34,197,94,0.2)] p-8 w-[90vw] max-w-7xl h-[80vh] mx-4 flex gap-8"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Close button */}
@@ -73,7 +73,7 @@ const Modal = ({ isOpen, onClose, project }: ModalProps) => {
 
         {/* RIGHT: image gallery */}
         {images.length > 0 && (
-          <div className="flex gap-3 w-72 shrink-0">
+          <div className="flex gap-3 w-400px shrink-0">
             {/* Main image */}
             <div className="flex-1 border border-[rgba(34,197,94,0.2)] overflow-hidden bg-[rgba(20,50,30,0.4)]">
               <img
