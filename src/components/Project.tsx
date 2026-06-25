@@ -3,6 +3,7 @@ import Modal from "./reusable/Modal";
 import GRID from "../assets/HOME.png";
 import StudyFlow1 from "../assets/StudyFlow1.png";
 import StudyFlow2 from "../assets/StudyFlow2.png";
+import GamerProfile from "../assets/GamerProfile.png";
 
 type Project = {
   title: string;
@@ -37,11 +38,12 @@ const projects: Project[] = [
     githubLink: "https://github.com/Rav-alt/StudyFlow",
   },
   {
-    title: "A simple combat",
-    description: "A game that tackles a simple combat. Still on WIP",
-    images: [],
+    title: "Gamer Profile",
+    description:
+      "Personal project where I was inspired to create a gamer portfolio that the user can share their games that they play, what rank, how many hours, and etc.",
+    images: [GamerProfile],
     work: ["W.I.P."],
-    techs: ["Unity", "C#"],
+    techs: ["Next.Js", "Supabase", "DaisyUI"],
     liveLink: "",
     githubLink: "https://github.com/Rav-alt",
   },
